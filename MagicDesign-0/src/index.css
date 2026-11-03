@@ -1,0 +1,114 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Figtree', system-ui, sans-serif;
+  color: #16181f;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+/* ---- ELEKS clone: section-specific animations (from live eleks.com CSS) ---- */
+
+/* Company highlights awards strip: continuous linear marquee (slick autoplay speed 8000, linear) */
+@keyframes awardsMarquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; scroll-behavior: smooth; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* Industries tall card: image is clipped to bottom area, expands to full card on hover */
+.industry-card__media,
+.industry-card__mask {
+  clip-path: inset(264px 16px 0 16px round 8px);
+  transition: clip-path 0.3s cubic-bezier(0.4, 0.2, 0.4, 1), opacity 0.3s cubic-bezier(0.4, 0.2, 0.4, 1);
+}
+@media (min-width: 1280px) {
+  .industry-card__media,
+  .industry-card__mask { clip-path: inset(300px 16px 0 16px round 8px); }
+}
+.industry-card:hover .industry-card__media,
+.industry-card:hover .industry-card__mask,
+.industry-card:focus-visible .industry-card__media,
+.industry-card:focus-visible .industry-card__mask {
+  clip-path: inset(0 0 0 0 round 0);
+}
+
+/* Expert insights card: image clipped above info block, fills card on hover */
+.news-card__image-wrap {
+  clip-path: inset(0 0 120px 0);
+  transition: clip-path 0.2s cubic-bezier(0.4, 0.2, 0.4, 1);
+}
+@media (min-width: 1280px) {
+  .news-card__image-wrap { clip-path: inset(0 0 136px 0); }
+}
+.news-card:hover .news-card__image-wrap,
+.news-card:focus-visible .news-card__image-wrap {
+  clip-path: inset(0 0 0 0);
+}
+
+/* Header "Contact us" gradient sweep (header--new__btn-wrap) */
+@keyframes headerBtnGradientMove {
+  0% { transform: translateX(10%); }
+  100% { transform: translateX(-90%); }
+}
+
+/* Authentic ELEKS Client menu logo strips */
+.eleks-clients-strip-1 {
+  background-image: url('/eleks/menu-clients-image-1.svg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-position 1.2s cubic-bezier(0.4, 0.2, 0.4, 1);
+}
+.eleks-clients-strip-2 {
+  background-image: url('/eleks/menu-clients-image-2.svg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-position 1.2s cubic-bezier(0.4, 0.2, 0.4, 1);
+}
+.eleks-clients-strip-3 {
+  background-image: url('/eleks/menu-clients-image-3.svg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-position 1.2s cubic-bezier(0.4, 0.2, 0.4, 1);
+}
+.group:hover .eleks-clients-strip-1,
+.group:hover .eleks-clients-strip-2,
+.group:hover .eleks-clients-strip-3 {
+  background-position: center bottom;
+}
+
+/* Authentic ELEKS Case studies image scrolling */
+.eleks-case-studies-img {
+  object-position: center top;
+  transition: object-position 2.5s cubic-bezier(0.4, 0.2, 0.4, 1);
+}
+.group:hover .eleks-case-studies-img {
+  object-position: center bottom;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

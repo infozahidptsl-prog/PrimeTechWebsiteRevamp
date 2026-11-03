@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Engineering",
+    "desc": "End-to-end engineering services for seamless software delivery.",
+    "items": [
+      {
+        "title": "Application development",
+        "desc": "Bring your software vision to life with a tailored solution and deliver an industry-leading user experience.",
+        "localIcon": "/eleks/service-icons/application-development-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "PoC development",
+        "desc": "Safely explore business-boosting concepts with robust testing and expert road mapping.",
+        "localIcon": "/eleks/service-icons/poc-development-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Cloud computing",
+        "desc": "",
+        "localIcon": "/eleks/service-icons/cloud-computing-services-icon-blue.svg",
+        "url": "#services",
+        "subLinks": [
+          "Cloud migration"
+        ]
+      },
+      {
+        "title": "Enterprise applications",
+        "desc": "",
+        "localIcon": "/eleks/service-icons/enterprise-applications-icon-blue.svg",
+        "url": "#services",
+        "subLinks": [
+          "ERP consulting",
+          "CRM consulting"
+        ]
+      },
+      {
+        "title": "Legacy software modernization",
+        "desc": "Transform your core legacy systems to elevate performance, agility, scalability, and UX.",
+        "localIcon": "/eleks/service-icons/application-re‑engineering-icon-blue.svg",
+        "url": "#services"
+      }
+    ]
+  },
+  {
+    "name": "Advisory",
+    "desc": "Strategic guidance for top-notch products and services.",
+    "items": [
+      {
+        "title": "Product and service design",
+        "desc": "Validate niche ideas and create innovative products and services that scale as your business does.",
+        "localIcon": "/eleks/service-icons/product-service-design-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Cyber security",
+        "desc": "Proactively identify threats to your digital infrastructure to futureproof your IT ecosystem.",
+        "localIcon": "/eleks/service-icons/cyber-security-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Technical feasibility study",
+        "desc": "Explore new technologies and their potential for your business before making an investment.",
+        "localIcon": "/eleks/service-icons/technical-feasibility-study-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Sustainability consulting",
+        "desc": "Reach your net-zero goals and seize new, sustainable business growth opportunities.",
+        "localIcon": "/eleks/service-icons/sustainability-consulting-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Agile transformation",
+        "desc": "Transform your organization to achieve agility, resilience, and sustainable business growth.",
+        "localIcon": "/eleks/service-icons/agile-transformation-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "AI consulting",
+        "desc": "Get strategic guidance on implementing AI solutions for scalable business growth.",
+        "localIcon": "/eleks/service-icons/ai-consulting-blue-icon.svg",
+        "url": "#services"
+      }
+    ]
+  },
+  {
+    "name": "Data & AI",
+    "desc": "Custom solutions to maximize the value of your data.",
+    "items": [
+      {
+        "title": "AI solutions advisor",
+        "desc": "",
+        "localIcon": "/eleks/service-icons/ai-solution-advisor-icon-blue.svg",
+        "url": "#advisor"
+      },
+      {
+        "title": "Artificial intelligence",
+        "desc": "Get expert support and guidance at every stage of your AI journey.",
+        "localIcon": "/eleks/service-icons/artificial-intelligence-icon-blue.svg",
+        "url": "#services",
+        "subLinks": [
+          "Generative AI",
+          "Agentic AI"
+        ]
+      },
+      {
+        "title": "Data science",
+        "desc": "Boost your business performance and achieve optimization through tailored data-driven solutions.",
+        "localIcon": "/eleks/service-icons/data-science-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "MLOps",
+        "desc": "Achieve seamless integration and maximum ROI for your machine learning models.",
+        "localIcon": "/eleks/service-icons/mlops-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Data engineering",
+        "desc": "",
+        "localIcon": "/eleks/service-icons/data-strategy-icon-blue.svg",
+        "url": "#services",
+        "subLinks": [
+          "Data strategy",
+          "Data management",
+          "Business intelligence"
+        ]
+      },
+      {
+        "title": "Intelligent automation",
+        "desc": "",
+        "localIcon": "/eleks/service-icons/intelligent-automation-icon-blue.svg",
+        "url": "#services",
+        "subLinks": [
+          "RPA",
+          "BPA"
+        ]
+      },
+      {
+        "title": "LLMOps",
+        "desc": "Streamline deployment, optimize performance, and maximize ROI for your large language models.",
+        "localIcon": "/eleks/service-icons/llmops-icon-blue.svg",
+        "url": "#services"
+      }
+    ]
+  },
+  {
+    "name": "Optimisation",
+    "desc": "Expert help for flawless performance of your products and services.",
+    "items": [
+      {
+        "title": "Software audit",
+        "desc": "Assess your software products and processes to mitigate risks and minimize revenue loss.",
+        "localIcon": "/eleks/service-icons/software-audit-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Quality assurance",
+        "desc": "Deliver flawless products and seamless user experiences with our expert QA services.",
+        "localIcon": "/eleks/service-icons/quality-assurance-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Support",
+        "desc": "Efficiently handle technical issues and system changes with our IT support services.",
+        "localIcon": "/eleks/service-icons/support-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "FinOps",
+        "desc": "Get expert guidance to maximise your cloud infrastructure value, optimise costs, and boost ROI.",
+        "localIcon": "/eleks/service-icons/finops-blue-icon.svg",
+        "url": "#services"
+      }
+    ]
+  },
+  {
+    "name": "Expertise",
+    "desc": "Latest technologies and innovative approaches to drive your business growth forward.",
+    "items": [
+      {
+        "title": "DevOps",
+        "desc": "Full-cycle DevOps solutions to optimise your SDLC for greater agility and cost-efficiency.",
+        "localIcon": "/eleks/service-icons/devops-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "VR/AR/MR",
+        "desc": "Utilize virtual reality technologies to deliver brand-defining, immersive user experiences.",
+        "localIcon": "/eleks/service-icons/vr-ar-mr-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Internet of Things",
+        "desc": "Embrace the potential of IoT for better efficiency, smoother collaboration and powerful data insights.",
+        "localIcon": "/eleks/service-icons/iot-icon-blue-1.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Market research",
+        "desc": "Get actionable market insights to guide product innovation and capture market share.",
+        "localIcon": "/eleks/service-icons/market-research-icon-blue.svg",
+        "url": "#services"
+      },
+      {
+        "title": "Customer experience",
+        "desc": "Design user-centric experiences that increase customer satisfaction and build brand loyalty.",
+        "localIcon": "/eleks/service-icons/customer-experience-cunsulting-icon-blue.svg",
+        "url": "#services"
+      }
+    ]
+  }
+]
